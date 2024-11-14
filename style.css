@@ -270,12 +270,6 @@ footer{
         height: auto;
     }
     
-    .W {
-        font-size: 0.9rem; /* ลดขนาดข้อความเมื่อหน้าจอเล็กลง */
-        padding: 0.8rem;
-        height: auto;
-    }
-
     /* จัดรูป */
     .the-weeknd img, .taylor-swfit img, .Bruno-mars img, .Billie_Eilish img,
     .travis-scott img, .ariana-grande img, .justin-bieber img, .metro-boomin img,
