@@ -11,6 +11,7 @@
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
+    flex: 1;
 }
 
 nav{
@@ -64,14 +65,31 @@ a {
 
 body{
     background-color: #171A20;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.W{
+    padding: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: auto;
+}
+
 
 /*ภายใต้คำสั่งศิลปิน*/
 
 .the-weeknd {
     display: flex;
-    flex-direction: row; 
-    align-items: center; 
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -81,8 +99,8 @@ body{
 
 .taylor-swfit{
     display: flex;
-    flex-direction: row; 
-    align-items: center; 
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -92,8 +110,8 @@ body{
 
 .Bruno-mars{
     display: flex;
-    flex-direction: row;
-    align-items: center; 
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -103,8 +121,8 @@ body{
 
 .Billie_Eilish{
     display: flex;
-    flex-direction: row; 
-    align-items: center; 
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -114,8 +132,8 @@ body{
 
 .travis-scott{
     display: flex;
-    flex-direction: row; 
-    align-items: center;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -125,8 +143,8 @@ body{
 
 .ariana-grande{
     display: flex;
-    flex-direction: row; 
-    align-items: center; 
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -136,8 +154,8 @@ body{
 
 .justin-bieber{
     display: flex;
-    flex-direction: row; 
-    align-items: center; 
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -147,8 +165,8 @@ body{
 
 .Katy-Perry {
     display: flex;
-    flex-direction: row; 
-    align-items: center;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -157,16 +175,16 @@ body{
 }
 
 .artist-row {
-    display: flex; 
-    justify-content: center; 
-    gap: 100px; 
+    display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    gap: 100px; /* ระยะห่างระหว่างแต่ละศิลปิน */
     margin-top: 20px;
 }
 
 .artist-row2 {
-    display: flex; 
-    justify-content: center; 
-    gap: 100px; 
+    display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    gap: 100px; /* ระยะห่างระหว่างแต่ละศิลปิน */
     margin-top: 115px;
 }
 
@@ -247,6 +265,18 @@ body{
         margin-top: 20px;
     }
 
+    .footer {
+        font-size: 0.9rem; /* ลดขนาดข้อความเมื่อหน้าจอเล็กลง */
+        padding: 0.8rem;
+        height: auto;
+    }
+    
+    .W {
+        font-size: 0.9rem; /* ลดขนาดข้อความเมื่อหน้าจอเล็กลง */
+        padding: 0.8rem;
+        height: auto;
+    }
+
     /* จัดรูป */
     .the-weeknd img, .taylor-swfit img, .Bruno-mars img, .Billie_Eilish img,
     .travis-scott img, .ariana-grande img, .justin-bieber img, .metro-boomin img,
@@ -272,6 +302,10 @@ body{
 
     .menu a {
         font-size: 0.8rem;
+    }
+    footer {
+        font-size: 0.8rem; /* ลดขนาดข้อความเพิ่มเติมสำหรับหน้าจอขนาดเล็กมาก */
+        padding: 0.6rem;
     }
 }
  
