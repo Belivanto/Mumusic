@@ -156,10 +156,6 @@ body{
     color: #fff;
 }
 
-
-
-
-
 .artist-row {
     display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
     justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
@@ -212,3 +208,70 @@ body{
 .Katy-Perry img{
     border-radius: 30%;
 }
+
+/*ปรับขนาดหน้าจอ*/
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .nav-con {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menu a {
+        font-size: 0.9rem;
+    }
+
+    .logo a {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .mid-Topartist {
+        font-size: 32px;
+        padding: 20px;
+    }
+
+    /* จัดเรียงแถวเมื่อหน้าจอเล็ก */
+    .artist-row, .artist-row2 {
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    /* จัดรูป */
+    .the-weeknd img, .taylor-swfit img, .Bruno-mars img, .Billie_Eilish img,
+    .travis-scott img, .ariana-grande img, .justin-bieber img, .metro-boomin img,
+    .Katy-Perry img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    /* ข้อความเวลาหน้าจอเล็ก */
+    .the-weeknd, .taylor-swfit, .Bruno-mars, .Billie_Eilish,
+    .travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .mid-Topartist {
+        font-size: 24px;
+    }
+
+    .menu a {
+        font-size: 0.8rem;
+    }
+}
+ 
