@@ -70,8 +70,8 @@ body{
 
 .the-weeknd {
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
-    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    flex-direction: row; 
+    align-items: center; 
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -81,8 +81,8 @@ body{
 
 .taylor-swfit{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
-    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    flex-direction: row; 
+    align-items: center; 
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -92,8 +92,8 @@ body{
 
 .Bruno-mars{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
-    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    flex-direction: row;
+    align-items: center; 
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -103,8 +103,8 @@ body{
 
 .Billie_Eilish{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
-    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    flex-direction: row; 
+    align-items: center; 
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -114,8 +114,8 @@ body{
 
 .travis-scott{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
-    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    flex-direction: row; 
+    align-items: center;
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -125,8 +125,8 @@ body{
 
 .ariana-grande{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
-    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    flex-direction: row; 
+    align-items: center; 
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -136,8 +136,8 @@ body{
 
 .justin-bieber{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
-    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    flex-direction: row; 
+    align-items: center; 
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -147,8 +147,8 @@ body{
 
 .Katy-Perry {
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
-    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    flex-direction: row; 
+    align-items: center;
     gap: 10px;
     margin-top: 20px;
     flex-direction: column;
@@ -157,16 +157,16 @@ body{
 }
 
 .artist-row {
-    display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
-    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
-    gap: 100px; /* ระยะห่างระหว่างแต่ละศิลปิน */
+    display: flex; 
+    justify-content: center; 
+    gap: 100px; 
     margin-top: 20px;
 }
 
 .artist-row2 {
-    display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
-    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
-    gap: 100px; /* ระยะห่างระหว่างแต่ละศิลปิน */
+    display: flex; 
+    justify-content: center; 
+    gap: 100px; 
     margin-top: 115px;
 }
 
