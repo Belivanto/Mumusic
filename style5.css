@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +33,7 @@ nav {
 .menu a {
     list-style: none;
     font-weight: bold;
-    color: #f0f0f0; /* สีเทาอ่อนเพื่อให้เห็นชัดเจน */
+    color: #f0f0f0;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -74,7 +73,7 @@ body {
     object-fit: cover;
     border-right: 2px solid #000000;
     border-radius: 30px;
-    margin-right: 20px; /* เพิ่มระยะห่างระหว่างรูปภาพและกล่องขาว */
+    margin-right: 20px;
 }
 
 .music-box {
@@ -94,13 +93,11 @@ body {
 .song-list {
     list-style-type: none;
     padding: 0;
-
 }
 
 .song-list li {
     margin: 10px 0;
     font-size: 18px;
-
 }
 
 .song-list li a {
@@ -112,7 +109,7 @@ body {
     text-decoration: none;
 }
 
-/* ข้อมูลศิลปินเพิ่มเติม */
+/* Artist Info */
 .artist-info {
     margin-top: 20px;
     color: #333;
@@ -128,7 +125,7 @@ body {
     font-size: 16px;
 }
 
-/* เพลงแนะนำ */
+/* Recommended Songs */
 .recommended-box {
     margin-top: 20px;
     padding: 20px;
@@ -159,4 +156,56 @@ body {
 
 .social-media a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .nav-con {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu a {
+        padding: 10px 0;
+    }
+    
+    .logo a {
+        padding-left: 0;
+    }
+    
+    .bigbox {
+        flex-direction: column;
+        width: 90%;
+        margin: 40px auto;
+        padding: 15px;
+    }
+    
+    .artist-image {
+        width: 100%;
+        height: auto;
+        margin: 0 0 20px 0;
+        border-right: none;
+        border-radius: 15px;
+    }
+    
+    .music-box {
+        padding: 20px;
+    }
+    
+    .music-box h1 {
+        font-size: 20px;
+    }
+    
+    .song-list li {
+        font-size: 16px;
+    }
+    
+    .recommended-box {
+        padding: 15px;
+    }
 }
