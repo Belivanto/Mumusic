@@ -148,16 +148,6 @@ body {
     margin: 5px 0;
     font-size: 16px;
 }
-
-.social-media a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.social-media a:hover {
-    text-decoration: underline;
-}
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .nav-con {
