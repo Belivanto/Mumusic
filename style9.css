@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pridi", serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    list-style: none;
+    font-weight: bold;
+    color: #f0f0f0; /* สีเทาอ่อนเพื่อให้เห็นชัดเจน */
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-left: 100px;
+    text-decoration: none;
+}
+
+body {
+    background-color: #171A20;
+}
+
+.bigbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424B5C;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    margin: 70px auto;
+    padding: 20px;
+}
+
+.artist-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-right: 2px solid #000000;
+    border-radius: 30px;
+    margin-right: 20px; /* เพิ่มระยะห่างระหว่างรูปภาพและกล่องขาว */
+}
+
+.music-box {
+    padding: 30px;
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.music-box h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #000000;
+}
+
+.song-list {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.song-list li {
+    margin: 10px 0;
+    font-size: 18px;
+
+}
+
+.song-list li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.song-list li a:hover {
+    text-decoration: none;
+}
+
+/* ข้อมูลศิลปินเพิ่มเติม */
+.artist-info {
+    margin-top: 20px;
+    color: #333;
+}
+
+.artist-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.artist-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* เพลงแนะนำ */
+.recommended-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.recommended-box h2 {
+    margin-bottom: 10px;
+}
+
+.recommended-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recommended-box li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.social-media a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}

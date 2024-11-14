@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pridi", serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav{
+    background-color: #333;
+}
+
+.Bottom{
+    background-color: #333;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    list-style:none;
+    font-weight: bold;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.logo a {
+    justify-content: left;
+    margin: 0;
+    font-size:1.5rem;
+    padding-left: 100px;
+}
+
+.mid-Topartist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-color: #000000;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+}
+
+body{
+    background-color: #171A20;
+}
+
+/*ภายใต้คำสั่งศิลปิน*/
+
+.the-weeknd {
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+
+.taylor-swfit{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Bruno-mars{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Billie_Eilish{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+
+.travis-scott{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+
+.ariana-grande{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+
+.justin-bieber{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Katy-Perry {
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+
+.artist-row {
+    display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    gap: 100px; /* ระยะห่างระหว่างแต่ละศิลปิน */
+    margin-top: 20px;
+}
+
+.artist-row2 {
+    display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    gap: 100px; /* ระยะห่างระหว่างแต่ละศิลปิน */
+    margin-top: 115px;
+}
+
+/*รูป*/
+
+.Bruno-mars img {
+    border-radius: 30%;
+    height: 100%;
+}
+
+.the-weeknd img {
+    border-radius: 30%;
+}
+
+.taylor-swfit img {
+    border-radius: 30%;
+}
+
+.Billie_Eilish img {
+    border-radius: 30%;
+}
+
+.travis-scott img {
+    border-radius: 30%;
+}
+
+.ariana-grande img{
+    border-radius: 30%;
+}
+
+.justin-bieber img{
+    border-radius: 30%;
+}
+
+.metro-boomin img{
+    border-radius: 30%;
+}
+
+.Katy-Perry img{
+    border-radius: 30%;
+}
