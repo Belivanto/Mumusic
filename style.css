@@ -18,9 +18,6 @@ nav{
     background-color: #333;
 }
 
-.Bottom{
-    background-color: #333;
-}
 
 .nav-con{
     display: flex;
@@ -88,7 +85,7 @@ footer{
 
 .the-weeknd {
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
     align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
@@ -99,7 +96,7 @@ footer{
 
 .taylor-swfit{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
     align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
@@ -110,7 +107,7 @@ footer{
 
 .Bruno-mars{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
     align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
@@ -121,7 +118,7 @@ footer{
 
 .Billie_Eilish{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
     align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
@@ -132,7 +129,7 @@ footer{
 
 .travis-scott{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    flex-direction: row;/* จัดเรียงเนื้อหาในแนวนอน */
     align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
@@ -143,7 +140,7 @@ footer{
 
 .ariana-grande{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
     align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
@@ -154,7 +151,7 @@ footer{
 
 .justin-bieber{
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
     align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
@@ -165,7 +162,7 @@ footer{
 
 .Katy-Perry {
     display: flex;
-    flex-direction: row; /* จัดเรียงเนื้อหาในแนวตั้ง */
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
     align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
     gap: 10px;
     margin-top: 20px;
@@ -174,131 +171,72 @@ footer{
     color: #fff;
 }
 
-.artist-row {
-    display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
-    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
-    gap: 100px; /* ระยะห่างระหว่างแต่ละศิลปิน */
-    margin-top: 20px;
+/* Artist Box Style */
+.artist-row, .artist-row2 {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* ลดระยะห่างระหว่างศิลปินเล็กน้อย */
+    margin-top: 30px;
+    flex-wrap: wrap; /* ช่วยให้รูปภาพจัดในแถวได้เมื่อหน้าจอเล็กลง */
 }
 
-.artist-row2 {
-    display: flex; /* จัดให้อยู่ในแถวเดียวกัน */
-    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
-    gap: 100px; /* ระยะห่างระหว่างแต่ละศิลปิน */
-    margin-top: 115px;
+/* รูปศิลปิน */
+.the-weeknd img, .taylor-swfit img, .Bruno-mars img, .Billie_Eilish img,
+.travis-scott img, .ariana-grande img, .justin-bieber img, .Katy-Perry img {
+    border-radius: 30%; /* ปรับให้รูปภาพเป็นทรงกลม */
+    width: 180px; /* ขนาดรูปภาพ */
+    height: 180px; /* ขนาดรูปภาพ */
+    object-fit: cover; /* ให้ภาพเต็มกรอบโดยไม่ยืด */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/*รูป*/
-
-.Bruno-mars img {
-    border-radius: 30%;
+/* ขยายรูปภาพเมื่อเอาเมาส์ไปวาง */
+.the-weeknd img:hover, .taylor-swfit img:hover, .Bruno-mars img:hover,
+.Billie_Eilish img:hover, .travis-scott img:hover, .ariana-grande img:hover,
+.justin-bieber img:hover, .Katy-Perry img:hover {
+    transform: scale(1.1); /* ขยายขนาดรูปภาพเล็กน้อย */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
 }
 
-.the-weeknd img {
-    border-radius: 30%;
+/* ข้อความชื่อศิลปิน */
+.the-weeknd, .taylor-swfit, .Bruno-mars, .Billie_Eilish,
+.travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
 }
 
-.taylor-swfit img {
-    border-radius: 30%;
-}
-
-.Billie_Eilish img {
-    border-radius: 30%;
-}
-
-.travis-scott img {
-    border-radius: 30%;
-}
-
-.ariana-grande img{
-    border-radius: 30%;
-}
-
-.justin-bieber img{
-    border-radius: 30%;
-}
-
-.metro-boomin img{
-    border-radius: 30%;
-}
-
-.Katy-Perry img{
-    border-radius: 30%;
-}
-
-/*ปรับขนาดหน้าจอ*/
+/* ปรับขนาดตัวอักษรในหน้าจอเล็ก */
 @media (max-width: 768px) {
-    .container {
-        padding: 0 10px;
-    }
-
-    .nav-con {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .menu {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .menu a {
-        font-size: 0.9rem;
-    }
-
-    .logo a {
-        padding-left: 0;
-        text-align: center;
-    }
-
-    .mid-Topartist {
-        font-size: 32px;
-        padding: 20px;
-    }
-
-    /* จัดเรียงแถวเมื่อหน้าจอเล็ก */
     .artist-row, .artist-row2 {
-        flex-direction: row;
-        gap: 30px;
-        margin-top: 20px;
+        gap: 30px; /* ลดระยะห่างระหว่างศิลปินในหน้าจอเล็ก */
     }
 
-    .footer {
-        font-size: 0.9rem; /* ลดขนาดข้อความเมื่อหน้าจอเล็กลง */
-        padding: 0.8rem;
-        height: auto;
-    }
-    
-    /* จัดรูป */
+    /* ปรับขนาดรูปภาพ */
     .the-weeknd img, .taylor-swfit img, .Bruno-mars img, .Billie_Eilish img,
-    .travis-scott img, .ariana-grande img, .justin-bieber img, .metro-boomin img,
-    .Katy-Perry img {
-        width: 100%;
-        max-width: 150px;
-        height: auto;
-        border-radius: 50%;
+    .travis-scott img, .ariana-grande img, .justin-bieber img, .Katy-Perry img {
+        width: 120px; /* ลดขนาดรูปภาพในหน้าจอเล็ก */
+        height: 120px; /* ลดขนาดรูปภาพในหน้าจอเล็ก */
     }
 
-    /* ข้อความเวลาหน้าจอเล็ก */
+    /* ข้อความศิลปิน */
     .the-weeknd, .taylor-swfit, .Bruno-mars, .Billie_Eilish,
     .travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry {
-        font-size: 1rem;
-        text-align: center;
+        font-size: 1rem; /* ปรับขนาดข้อความให้เล็กลงในหน้าจอเล็ก */
     }
 }
 
 @media (max-width: 480px) {
-    .mid-Topartist {
-        font-size: 24px;
+    /* ลดขนาดของข้อความและรูปภาพให้เล็กลงอีก */
+    .the-weeknd img, .taylor-swfit img, .Bruno-mars img, .Billie_Eilish img,
+    .travis-scott img, .ariana-grande img, .justin-bieber img, .Katy-Perry img {
+        width: 100px; /* ลดขนาดรูปภาพในหน้าจอมือถือ */
+        height: 100px; /* ลดขนาดรูปภาพในหน้าจอมือถือ */
     }
 
-    .menu a {
-        font-size: 0.8rem;
-    }
-    footer {
-        font-size: 0.8rem; /* ลดขนาดข้อความเพิ่มเติมสำหรับหน้าจอขนาดเล็กมาก */
-        padding: 0.6rem;
+    .the-weeknd, .taylor-swfit, .Bruno-mars, .Billie_Eilish,
+    .travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry {
+        font-size: 0.9rem; /* ลดขนาดข้อความในหน้าจอมือถือ */
     }
 }
- 
