@@ -240,3 +240,24 @@ footer{
         font-size: 0.9rem; /* ลดขนาดข้อความในหน้าจอมือถือ */
     }
 }
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.search-bar {
+    margin-left: auto;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+}
+
+
+
