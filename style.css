@@ -339,20 +339,26 @@ footer{
 
 /* ปรับขนาดตัวอักษรในหน้าจอเล็ก */
 @media (max-width: 768px) {
-    .artist-row, .artist-row2 .artist-row3 {
+    .artist-row, .artist-row2 ,.artist-row3 ,.artist-row4 ,.artist-row5{
         gap: 30px; /* ลดระยะห่างระหว่างศิลปินในหน้าจอเล็ก */
     }
 
     /* ปรับขนาดรูปภาพ */
     .the-weeknd img, .taylor-swfit img, .Bruno-mars img, .Billie_Eilish img,
-    .travis-scott img, .ariana-grande img, .justin-bieber img, .Katy-Perry img {
+    .travis-scott img, .ariana-grande img, .justin-bieber img, .Katy-Perry img 
+    ,.keshi img,.lanadel-rey img, .Ed-Sheeran img,.Lola-Young img ,.One-Direction img,
+    .Lady-Gaga img,.Djo img ,.Ruel img ,.Fujii-Kaze img ,.Olivia-Rodrigo img ,.Charlie-Puth img
+    ,.Sam-Smith img{
         width: 120px; /* ลดขนาดรูปภาพในหน้าจอเล็ก */
         height: 120px; /* ลดขนาดรูปภาพในหน้าจอเล็ก */
     }
 
     /* ข้อความศิลปิน */
     .the-weeknd, .taylor-swfit, .Bruno-mars, .Billie_Eilish,
-    .travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry {
+    .travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry 
+    ,.keshi,.lanadel-rey, .Ed-Sheeran ,.Lola-Young ,.One-Direction,
+    .Lady-Gaga ,.Djo ,.Ruel ,.Fujii-Kaze ,.Olivia-Rodrigo,.Charlie-Puth
+    ,.Sam-Smith{
         font-size: 1rem; /* ปรับขนาดข้อความให้เล็กลงในหน้าจอเล็ก */
     }
 }
@@ -360,13 +366,19 @@ footer{
 @media (max-width: 480px) {
     /* ลดขนาดของข้อความและรูปภาพให้เล็กลงอีก */
     .the-weeknd img, .taylor-swfit img, .Bruno-mars img, .Billie_Eilish img,
-    .travis-scott img, .ariana-grande img, .justin-bieber img, .Katy-Perry img {
+    .travis-scott img, .ariana-grande img, .justin-bieber img, .Katy-Perry img 
+    ,.keshi img,.lanadel-rey img, .Ed-Sheeran img,.Lola-Young img ,.One-Direction img,
+    .Lady-Gaga img,.Djo img ,.Ruel img ,.Fujii-Kaze img ,.Olivia-Rodrigo img ,.Charlie-Puth img
+    ,.Sam-Smith img{
         width: 100px; /* ลดขนาดรูปภาพในหน้าจอมือถือ */
         height: 100px; /* ลดขนาดรูปภาพในหน้าจอมือถือ */
     }
 
     .the-weeknd, .taylor-swfit, .Bruno-mars, .Billie_Eilish,
-    .travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry {
+    .travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry 
+    ,.keshi,.lanadel-rey, .Ed-Sheeran ,.Lola-Young ,.One-Direction,
+    .Lady-Gaga ,.Djo ,.Ruel ,.Fujii-Kaze ,.Olivia-Rodrigo,.Charlie-Puth
+    ,.Sam-Smith{
         font-size: 0.9rem; /* ลดขนาดข้อความในหน้าจอมือถือ */
     }
 }
