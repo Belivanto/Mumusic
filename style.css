@@ -171,8 +171,129 @@ footer{
     color: #fff;
 }
 
+.keshi {
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.lanadel-rey {
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.Ed-Sheeran {
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.Lola-Young{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.One-Direction{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.Lady-Gaga{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.Djo{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.Ruel{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.Fujii-Kaze{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.Olivia-Rodrigo{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.Charlie-Puth{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+.Sam-Smith{
+    display: flex;
+    flex-direction: row; /* จัดเรียงเนื้อหาในแนวนอน */
+    align-items: center; /* จัดข้อความให้อยู่กึ่งกลางใต้รูป */
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+}
+
 /* Artist Box Style */
-.artist-row, .artist-row2 {
+.artist-row, .artist-row2 ,.artist-row3,.artist-row4 ,.artist-row5{
     display: flex;
     justify-content: center;
     gap: 80px; /* ลดระยะห่างระหว่างศิลปินเล็กน้อย */
@@ -182,7 +303,10 @@ footer{
 
 /* รูปศิลปิน */
 .the-weeknd img, .taylor-swfit img, .Bruno-mars img, .Billie_Eilish img,
-.travis-scott img, .ariana-grande img, .justin-bieber img, .Katy-Perry img {
+.travis-scott img, .ariana-grande img, .justin-bieber img, .Katy-Perry img
+,.keshi img ,.lanadel-rey img , .Ed-Sheeran img, .Lola-Young img, .One-Direction img
+,.Lady-Gaga img ,.Djo img,.Ruel img ,.Fujii-Kaze img ,.Olivia-Rodrigo img ,.Charlie-Puth img
+,.Sam-Smith img{
     border-radius: 30%; /* ปรับให้รูปภาพเป็นทรงกลม */
     width: 180px; /* ขนาดรูปภาพ */
     height: 180px; /* ขนาดรูปภาพ */
@@ -193,14 +317,20 @@ footer{
 /* ขยายรูปภาพเมื่อเอาเมาส์ไปวาง */
 .the-weeknd img:hover, .taylor-swfit img:hover, .Bruno-mars img:hover,
 .Billie_Eilish img:hover, .travis-scott img:hover, .ariana-grande img:hover,
-.justin-bieber img:hover, .Katy-Perry img:hover {
+.justin-bieber img:hover, .Katy-Perry img:hover ,.keshi img:hover,.lanadel-rey img:hover
+,.Ed-Sheeran img:hover ,.Lola-Young img:hover ,.One-Direction img:hover ,.Lady-Gaga img:hover
+,.Djo img:hover ,.Ruel img:hover,.Fujii-Kaze img:hover ,.Olivia-Rodrigo img:hover ,.Charlie-Puth img:hover
+,.Sam-Smith img:hover{
     transform: scale(1.1); /* ขยายขนาดรูปภาพเล็กน้อย */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
 }
 
 /* ข้อความชื่อศิลปิน */
 .the-weeknd, .taylor-swfit, .Bruno-mars, .Billie_Eilish,
-.travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry {
+.travis-scott, .ariana-grande, .justin-bieber, .Katy-Perry 
+,.keshi,.lanadel-rey, .Ed-Sheeran ,.Lola-Young ,.One-Direction,
+.Lady-Gaga ,.Djo ,.Ruel ,.Fujii-Kaze ,.Olivia-Rodrigo,.Charlie-Puth
+,.Sam-Smith{
     font-weight: bold;
     color: #fff;
     text-align: center;
@@ -209,7 +339,7 @@ footer{
 
 /* ปรับขนาดตัวอักษรในหน้าจอเล็ก */
 @media (max-width: 768px) {
-    .artist-row, .artist-row2 {
+    .artist-row, .artist-row2 .artist-row3 {
         gap: 30px; /* ลดระยะห่างระหว่างศิลปินในหน้าจอเล็ก */
     }
 
