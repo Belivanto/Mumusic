@@ -90,6 +90,11 @@ body {
     color: #000000;
 }
 
+.album-art {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+}
+
 .song-list {
     list-style-type: none;
     padding: 0;
@@ -147,6 +152,22 @@ body {
 .recommended-box li {
     margin: 5px 0;
     font-size: 16px;
+}
+
+.social-media a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+.album-art img{
+    border-radius: 30%; /* ปรับให้รูปภาพเป็นทรงกลม */
+    width: 180px; /* ขนาดรูปภาพ */
+    height: 180px; /* ขนาดรูปภาพ */
+    object-fit: cover; /* ให้ภาพเต็มกรอบโดยไม่ยืด */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Responsive Adjustments */
